@@ -6,8 +6,12 @@
 ## 如何使用
 
 * 首先导入 WechatSpider.jar 包到工程目录
-* 实例化类 `WechatSpider spider = new WechatSpider("xiaomigongsi0406");` 参数为微信公共号的别名，通过搜过搜索相关的公众号，查看微信号
-* // new WechatSpider("123").getPageDocs(1); 获取第一页的的全部文章
+* 实例化类
+
+```java
+    WechatSpider spider = new WechatSpider("xiaomigongsi0406"); // 参数为微信公共号的别名，通过搜过搜索相关的公众号，查看微信号
+   // new WechatSpider("123").getPageDocs(1); 获取第一页的的全部文章
+```
 
 ```java
     String listUrl = spider.getListUrl();
