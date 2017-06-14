@@ -9,8 +9,10 @@
 * 实例化类
 
 ```java
-    WechatSpider spider = new WechatSpider("xiaomigongsi0406"); // 参数为微信公共号的别名，通过搜过搜索相关的公众号，查看微信号
-   // new WechatSpider("123").getPageDocs(1); 获取第一页的的全部文章
+    // 参数为微信公共号的别名，通过搜过搜索相关的公众号，查看微信号
+    WechatSpider spider = new WechatSpider("xiaomigongsi0406"); 
+    
+    // new WechatSpider("123").getPageDocs(1); 获取第一页的的全部文章
 ```
 
 ```java
